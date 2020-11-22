@@ -1,0 +1,508 @@
+*{
+    box-sizing: border-box;
+ font-family: 'Josefin Sans', sans-serif;
+  ;
+}
+body
+{
+   height: 7000px;
+}
+
+.navbar
+{
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px brown;
+    padding: 20px 50px;
+    padding-right: 56px
+}
+.but
+{
+position: relative;
+padding:15px 30px ;
+background-color: #329d23;
+margin-left: 20px;
+border-radius: 6px;
+}
+
+.but a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.but i
+{
+    margin-right: 10px;
+    color: white;
+}
+.but::before
+{
+    content: "";
+    width: 0px;
+    height: 100%;
+    background-color:black;
+    display: block;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.5;
+  
+    transition: .3s all ease-in;
+}
+.but:hover:before
+{
+   width: 100%;
+
+}
+
+.navbar .navbar-nav li
+{
+    margin-right: 30px;
+    transition: 0.3 all ease-in;
+}
+
+.navbar .navbar-nav .nav-item .nav-link
+{
+font-size: 19px;
+padding: 13px;
+
+color: #234821;
+
+}
+.navbar .navbar-nav .nav-item .nav-link:hover
+{
+    color: #329D23;
+
+
+    
+}
+
+.navbar .navbar-nav .nav-item
+{
+    position: relative;
+}
+.navbar .navbar-nav .nav-item::after
+{
+    content: "";
+    display: block;
+    width: 0px;
+    height: 3px;
+    background-color: #329d23;
+    transition: 0.3s all ease-in;
+    position: absolute;
+    top:75px;
+    left: 0px;
+
+
+}
+
+.navbar .navbar-nav .nav-item:hover:after
+{
+
+width: 100%;
+
+}
+.dropdown-menu
+{
+    top: 132%;
+}
+
+@media(max-width:991px)
+{
+    .navbar-toggler:focus
+    {
+        
+       
+        outline: 0;
+
+    }
+    .navbar{
+        padding: 20px 25px;
+    }
+    .navbar .navbar-toggler i{
+        font-size: 25px;
+        color: #329023;
+    }
+
+
+    .navbar .navbar-nav .nav-item:hover:after
+{
+
+width: 0px
+
+}
+
+}
+
+/*--========================Start carsol ============================-->*/
+.header
+{
+   
+
+}
+
+
+
+
+.header .carousel-item .info
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    width: 75%;
+    
+}
+.header .carousel-item img
+{
+
+}
+.header .carousel-item .info h1
+{
+    font-size: 75px;
+    margin-bottom: 45px;
+
+}
+.header .carousel-item .info p
+{
+font-size: 35px
+;}
+.header .carousel-item .info .btn
+{
+border: 1px solid #FFF;
+border-radius: 7px;
+padding-top: 15px 20px;
+color: #FFF;
+font-size: 18px;
+}
+
+.header .carousel-item .info .btn i
+{
+    font-size: 13px;
+    margin-left: 5px;
+    transition: .3s all ease-in;
+}
+.header .carousel-item .info .btn:hover i
+{
+    transform: translateX(5px);
+}
+
+.header .carousel-control-prev-icon {
+    background-image: none;
+    position: absolute;
+    left: 0px;
+    background: black;
+    width: 30px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.header .carousel-control-next-icon:hover,.header .carousel-control-prev-icon:hover
+{
+    background-color: rgba(255,255, 255, 01);
+    color: #222222;
+}
+    .header .carousel-control-next-icon
+    {
+        background-image: none;
+        position: absolute;
+       right:0px;
+        background: black;
+        width: 30px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+
+    }
+
+    @media(max-width:767px)
+    {
+        .header
+        {
+            margin-left: 5px;
+        }
+        .header .carousel-item .info h1
+        {
+            font-size: 44px;
+            margin-bottom: 22px;
+        
+        }
+        .header .carousel-item .info p
+        {
+        font-size: 20px
+        ;}
+
+        .header .carousel-item .info .btn
+        {
+            border: 1px solid #FFF;
+            border-radius: 7px;
+            padding-top: 10px 20px;
+            color: #FFF;
+            font-size: 16px;
+        }
+
+
+
+
+
+    } 
+/*--========================End carsol ============================-->*/
+
+
+
+
+
+/*--========================sTAR Years ============================-->*/
+
+
+.year
+{
+    margin-top: 68px;
+}
+.year h3
+{
+    font-weight: 600;
+    font-size: 66px;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+.year p
+{
+font-size: 16px;
+margin-bottom: 27px;
+}
+
+
+.year .dd
+{
+    padding-left: 50px;
+}
+
+
+.year .but
+{
+
+
+
+}
+/*--========================End Years ============================-->*/
+
+.heading h2
+{
+    font-weight: 700;
+    margin-bottom: 21px;
+    color: #234821;
+    font-size: 50px;
+}
+
+/*--========================Star Serviec ============================-->*/
+
+.service
+{
+    padding: 0px 19px;
+}
+.service .servece-img img
+{
+
+    width: 100%;
+    height: 460px;
+}
+
+.service .service-info
+{
+    background-color: #F3FFF2;
+  padding: 60px 30px;
+  height: 460px;
+
+}
+.service .service-info h6
+{
+
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.service .service-info h4
+{
+    color: #234821;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0px;
+}
+
+.service .service-info p
+{
+    line-height: 30px;
+    color: #329D23;
+    margin-bottom: 22px;
+}
+.service .service-info .but
+{
+    padding: 7px 24px;
+}
+
+
+
+/*--========================Star Serviec ============================-->*/
+
+@media(max-width:1024px)
+{
+    .service .service-info .but
+    {
+        padding: 7px 3px;
+        margin-left: 0px;
+        width: 170px;
+    }
+      
+}
+
+
+
+
+
+
+.content .content-items p
+{
+    line-height: 20px;
+}
+.content .content-items h3
+{
+font-size: 50px;
+font-weight: 700;
+color: #234812;
+margin-bottom: 20px;
+text-transform: uppercase;
+}
+
+
+.content .row
+{
+    border-bottom: 1px solid red;
+    
+}
+
+
+
+/*============== Star choose===========*/
+
+
+.choose .choose-info h3
+{
+color: #234812;
+font-size: 51px;
+line-height: 60px;
+margin-bottom: 20px;
+
+}
+.choose .choose-info p
+{
+    color: #234812;
+    line-height: 30px;
+}
+.choose .choose-info ul
+{
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+
+}
+.choose .choose-info ul li
+{
+display: flex;
+justify-content: center;
+align-items: flex-start;
+line-height: 30px;
+
+}
+.choose .choose-info ul li i
+{
+    margin-right: 10px;
+    color: #329023;
+    font-size: 16px;
+}
+
+.choose .choose-infoimg 
+{
+    position: relative;
+}
+.choose .choose-infoimg img
+{
+width: 100%;
+height: 100%;
+
+}
+
+.choose .choose-infoimg .icon
+{
+
+position: absolute;
+bottom: 0;
+
+}
+
+.choose .choose-infoimg .icon .icon1,
+.choose .choose-infoimg .icon .icon2
+{
+
+background-color: #329023;
+width: 150px;
+height: 150px;
+text-align: center;
+display: inline-block;
+margin:0px;
+color: #FFF;
+padding-top: 40px;
+}
+
+ .choose .choose-info .but
+ 
+ {
+margin-top: 30px;
+
+ }
+ .choose .choose-infoimg .icon .icon1
+ {
+background-color: #285D25;
+ }
+
+ .choose .choose-infoimg .icon .icon1 i,
+.choose .choose-infoimg .icon .icon2 i
+{
+    font-size: 40px;
+}
+.choose
+{
+    margin-top: 100px;
+}
+
+@media(max-width:1024px)
+{
+    .choose .row
+    {
+        margin-right: -43px;
+        margin-left: -15px;
+    }
+}
+
+@media(max-width:767px)
+{
+    .choose .choose-infoimg
+    {
+        margin-top: 30px;
+    }
+
+    .service .heading
+    {
+        margin-top: 50px;
+    }
+}
