@@ -506,3 +506,316 @@ background-color: #285D25;
         margin-top: 50px;
     }
 }
+
+
+
+
+/*<!--========================Star Video============================-->*/
+
+ .video
+ {
+  
+background-image: url('../Images/video-bg.png');
+width: 100%;
+height: 650px;
+background-size: cover;
+background-position: center;
+position: relative;
+ }
+
+
+ .video .but1
+ {
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-60%,-60%);
+background-color: #329D23;
+color: #FFF;
+border-radius: 50%;
+width: 100px;
+height: 100px;
+padding: 35px;
+padding-top: 40px;
+border: none;
+position: relative;
+ }
+
+ .video .but1:focus
+ {
+   border: none;
+ }
+ .video .but1::before
+ {
+content: "";
+position: absolute;
+width: 250px;
+height: 250px;
+background-color: #329D23;
+opacity: 0.5;
+display: inline-block;
+z-index: -1;
+left: -75px;
+top: -70px;
+border-radius: 50%;
+}
+ .video .but1 i
+ {
+     font-size: 20px;
+     font-weight: 700;
+ } 
+
+ .video .modal-dialog
+ {
+     max-width: 900px;
+     text-align: center;
+   
+ }
+ .video .modal-content
+ {
+     background: none;
+     border: none;
+ }
+ .video .modal-header
+ {
+     border-bottom: none;
+ }
+ .video .modal-header span
+ {
+     font-size: 50px;
+     font-weight: 700;
+     color: #fff;
+ }
+ .video .modal-header button:focus
+ {
+border: 0;
+background: none;
+outline: 0;
+ }
+/*<!--========================End Video============================-->*/
+
+/*<!--========================Start Typs============================-->*/
+
+.type .typs-info .media-body
+{
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+.type .typs-info 
+{
+    padding: 40px;
+    background-color: #F3FFF2;
+    margin-top: 30px;
+}
+
+.type .typs-info .media-body h5 a
+{
+    font-size: 30px;
+    font-weight: 700;
+    color: #234812;
+}
+.type .typs-info .media-body h5 a:hover
+{
+    color: #329D23;
+}
+
+.type .typs-info .media-body p
+{
+    line-height:30px;
+    color: #285D25;
+}
+
+.type .typs-info .media-body a
+{
+    text-decoration: none;
+  
+}
+
+.type .typs-info .media-body .a1
+{
+    transition: 0.3s all;
+    color: #329D23;
+}
+.type .typs-info .media-body .a1:hover
+{
+    letter-spacing :1.9px;
+
+}
+
+.type .but1
+{
+    margin-top: 30px;
+    margin-left: 47%;
+    background:none;
+   width: 140px;
+   height: 60px;
+    border: 1px solid #329d23;
+position: relative;
+border-radius: 3px;
+
+
+
+}
+
+.type .but1:hover::before
+{
+    height: 59px;
+    z-index: -1;
+}
+
+.type .but1 a
+{
+transition: 0.3s all;
+}
+.type .but1:hover a
+{
+    color: #fff;
+}
+.type .but1::before
+{
+    content: " ";
+    position: absolute;
+    display: inline-block;
+    width: 139px;
+    height: 0px;
+    border-radius: 3px ;
+    background-color: #329D23;
+    top: 0;
+    left: 0;
+    transition: 0.3s all ease-in;
+}
+
+.type .but1 a
+{
+    color: #329023;
+    font-weight: 700;
+    text-decoration: none;
+}
+@media(max-width:767px)
+{.header{margin-left: 20px;}
+    .type{margin-left: 20px ;}
+    .video{margin-left: 13px;}
+    .type .media{display:block ;}
+    .type .but1{margin-left: 35%;}
+    .type .media img
+    {
+        margin-left: -20px;
+    }
+}
+/*<!--========================End Typs============================-->*/
+
+/*<!--========================Start help============================-->*/
+
+.help .help-info
+{
+padding:100px;
+
+}
+.help .help-info h1
+{
+    color: #234821;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 55px;
+}
+.help .help-info p
+{
+    color: #329D23;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+.help .help-info ul
+{
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+
+}
+.help .help-info ul li
+{
+    line-height: 60px;
+    color: #285D25;
+    font-size: 20px;
+
+}
+.help .help-info ul li i
+{
+    margin-right: 20px;
+}
+
+.help .help-img img
+{
+    width: 100%;
+    height: 700px;
+}
+
+
+
+.help .but1
+{margin-top: 40px;
+    width: 300px;
+    height: 70px;
+    background:none;
+    border: 1px solid #329D23;
+    position: relative;
+    border-radius:3px ;
+   
+}
+.help .but1::before
+{
+    content: " ";
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 0px;
+    border-radius: 3px ;
+    background-color: #329D23;
+    top: 0;
+    left: 0;
+    transition: 0.3s all ease-in;
+}
+.help .but1 a
+{
+    color: #329D23;
+   
+}
+
+.help .but1:hover::before
+{
+    height:101%;
+    z-index: -1;
+}
+
+.help.but1 a
+{
+transition: 0.3s all;
+}
+.help .but1:hover a
+{
+    color: #fff;
+}
+
+@media(max-width:767px)
+{
+    
+    .year  h3
+    {
+        font-size: 30px;
+    }
+    .help .help-info
+    {
+        padding: 20px;
+    }
+.navbar .navbar-toggler
+{
+    margin-right: 30px;
+}.choose .choose-info h3{font-size: 26px;}
+    .help .but1
+    {margin-left: 10px;
+    padding-right: 0px;
+margin-right: 0px;}
+    .help .help-info h1{font-size: 23px;}
+}
