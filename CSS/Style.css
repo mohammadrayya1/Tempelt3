@@ -6,6 +6,8 @@
 body
 {
    height: 7000px;
+   margin:auto;
+   padding: 0;
 }
 
 .navbar
@@ -751,8 +753,10 @@ padding:100px;
     width: 100%;
     height: 700px;
 }
-
-
+.help
+{
+    width: 99%;
+}
 
 .help .but1
 {margin-top: 40px;
@@ -818,4 +822,62 @@ transition: 0.3s all;
     padding-right: 0px;
 margin-right: 0px;}
     .help .help-info h1{font-size: 23px;}
+}
+
+
+footer
+{
+    margin-bottom: 30px;
+    background-color: #F3FFF2;
+    height: 400px;
+}
+footer .row
+{
+    padding-top: 50px;
+}
+
+footer .info1 img
+{
+    margin-bottom: 30px;
+}
+
+footer .info1 p
+{
+    line-height: 30px;
+    color: #329D23;
+}
+
+footer .info1 i
+{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color:azure;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 50% ;
+    color: #329D23;
+
+}
+
+footer .info1 i:hover
+{
+    background-color: #234812;
+    color: #FFF;
+}
+footer .info1 .info1-i
+{
+    margin-top: 30px;
+}
+
+footer .info2 ul li 
+{
+    line-height: 35px;
+    color: #329D23;
+
+}
+footer .info2 ul 
+{
+    list-style: none;
+
 }
